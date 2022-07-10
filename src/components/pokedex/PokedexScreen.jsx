@@ -16,7 +16,7 @@ const PokedexScreen = () => {
   useEffect(() => {
     if (filterType === "All Pokemons") {
       const URL_POKEMONS =
-        "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=12";
+        "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1174";
       axios
         .get(URL_POKEMONS)
         .then((res) => setPokemons(res.data.results))

@@ -16,6 +16,11 @@ const PokeInfoCard = () => {
   }, []);
 
   console.log(individualPokemon);
+  const navigate = useNavigate();
+  const backPage = () => {
+    navigate("/pokedex");
+  };
+
 
   return (
       
@@ -23,7 +28,7 @@ const PokeInfoCard = () => {
       
       <div className={id&& 'pokeinfo-bt-back' }>
        
-       <button>
+       <button onClick={backPage}>
         <i class="fa-solid fa-arrow-rotate-left"></i>
         </button>
         </div>

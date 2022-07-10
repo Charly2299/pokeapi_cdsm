@@ -19,6 +19,9 @@ const InputHome = ({setIsLogged}) => {
  if(data.nameUser!==''){
      setIsLogged(true)
  }
+ else{
+     setIsLogged(false)
+ }
         reset({
             nameUser: ''
         })

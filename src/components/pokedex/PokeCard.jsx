@@ -35,7 +35,7 @@ console.log(pokemon);
       alt="" />
       </div>
       <div className='article-tittle'>
-      <h2>{pokemon?.name}</h2>
+      <strong>{pokemon?.name}</strong>
       </div>
 
     <div className='article-types'>

@@ -44,7 +44,7 @@ button {
 }
 
 .header__container {
-  border: solid green 2px;
+  /* border: solid green 2px; */
   min-height: 10vh;
  
 }
@@ -92,7 +92,7 @@ button {
 /* HomeScreen */
 
 .home__container {
-  border: solid blue 2px;
+  /* border: solid blue 2px; */
   max-width: 100vh;
 
   display: flex;
@@ -167,7 +167,7 @@ text-align: center;
 
 /* PokedexScreen */
 .pokedex-screen__container {
-  border: solid blue 2px;
+  /* border: solid blue 2px; */
   max-width: 100vh;
 
   display: flex;
